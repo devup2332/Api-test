@@ -1,7 +1,5 @@
-import express from "express";
+import App from "./app";
+import DB from "./database";
 
-const app = express();
-
-app.listen(8000,()=> {
-    console.log('Api is working');
-})
+App;
+DB();
