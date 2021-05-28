@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const initialize_db = async () => {
   try {
-    await mongoose.connect("mongodb://localhost:27017/test", {
+    await mongoose.connect("mongodb://localhost:27017/user-app", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
